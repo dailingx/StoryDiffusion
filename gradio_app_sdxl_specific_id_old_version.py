@@ -41,7 +41,8 @@ models_dict = {
    "SDXL": "stabilityai/stable-diffusion-xl-base-1.0" ,
    "Unstable": "stablediffusionapi/sdxl-unstable-diffusers-y"
 }
-photomaker_path =  hf_hub_download(repo_id="TencentARC/PhotoMaker", filename="photomaker-v1.bin", repo_type="model")
+# photomaker_path =  hf_hub_download(repo_id="TencentARC/PhotoMaker", filename="photomaker-v1.bin", repo_type="model")
+photomaker_path = 'PhotoMaker/photomaker-v1.bin'
 MAX_SEED = np.iinfo(np.int32).max
 def setup_seed(seed):
     torch.manual_seed(seed)
