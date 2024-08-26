@@ -1345,4 +1345,4 @@ with gr.Blocks(css=css) as demo:
     gr.Markdown(article)
 
 
-demo.launch(server_name="0.0.0.0", share=True)
+demo.launch(server_name="0.0.0.0", share=False, server_port=8216)
