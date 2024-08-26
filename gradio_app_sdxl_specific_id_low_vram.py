@@ -8,6 +8,8 @@ import os
 import random
 import datetime
 from PIL import ImageFont
+# os.system("pip install --upgrade transformers")
+# os.system("pip install --upgrade huggingface_hub")
 from utils.gradio_utils import (
     character_to_dict,
     process_original_prompt,
